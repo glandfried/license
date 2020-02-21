@@ -1,0 +1,39 @@
+*  # Ignora todo
+
+########################
+# Archivos que NO ignora
+
+!license*
+!LICENSE*
+
+## Latex
+!*.tex
+*-concordance.tex
+!*.bib
+!*.bst
+!*.sty
+!*.cls
+
+## Codigo
+!*.py
+!*.R
+!*.c
+
+## Texto
+!*.md
+!*.txt
+!*.sh
+
+## Otros
+!makefile
+!Makefile
+!.keep
+!.gitignore
+
+#########################
+# Carpetas que SI ignora
+*download/
+
+#########################
+# Nombre de archivo o carpeta que SIEMPRE ignora
+*-ignore* 
